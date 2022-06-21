@@ -6,6 +6,18 @@ import todocodeacademy.tpintegrador.model.Producto;
 import java.util.List;
 
 public interface IClienteService {
-    public void crearCliente();
-    public List<Cliente> traerClientes();
+    //alta
+    public void createCliente(Cliente cliente);
+    //método para traer a todos los clientes
+    //lectura
+    public List<Cliente> getClientes();
+
+    //baja
+    public void deleteCliente(Long id_cliente);
+
+    //lectura de un solo objeto
+    public Cliente findCliente(Long id_cliente);
+
+    //edición/modificación
+    public void editCliente(Cliente cliente);
 }

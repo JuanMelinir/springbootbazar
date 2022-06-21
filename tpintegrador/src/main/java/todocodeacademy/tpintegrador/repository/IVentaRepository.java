@@ -1,4 +1,7 @@
 package todocodeacademy.tpintegrador.repository;
 
-public interface IVentaRepository {
+import org.springframework.data.jpa.repository.JpaRepository;
+import todocodeacademy.tpintegrador.model.Venta;
+
+public interface IVentaRepository extends JpaRepository<Venta,Long> {
 }
