@@ -1,10 +1,10 @@
-package com.todocode.bazar;
+package com.todocode.tpbazar;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BazarApplicationTests {
+class TpbazarApplicationTests {
 
 	@Test
 	void contextLoads() {
